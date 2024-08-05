@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #87A96B;
+    color: white;
+}
+
+.title{
+    color: tomato;
+    text-align: center;
+    font-size: 5vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.game{
+    height: 65vh;
+    width: 28vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    width: 9vw;
+    height: 20vh;
+    border-radius: 1rem;
+    border: none;
+    font-size: 5vw;
+    background-color: #fffcd7;
+    color: #80091B;
+}
+
+/* .box:hover{
+    background-color: #bfbfbf;
+} */
+
+.RestartBtn{
+    width: 12vw;
+    height: 8vh;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 10px;
+    border: none;
+    color: tomato;
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-left: 44vw;
+}
+
+.hide{
+    display: none;
+}
+
+.winMeassageContainer{
+    width: 30vw;
+    height: 10vh;
+    margin-left: 35vw;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(85, 85, 218);
+}
